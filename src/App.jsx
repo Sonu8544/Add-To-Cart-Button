@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
+// import Services from './pages/Services'
+import Services from './pages/Services';
 
 function App() {
 
@@ -16,6 +18,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/about' element={<About />} />
+          <Route path='/Services' element={<Services />} />
         </Routes>
       </BrowserRouter>
     </>
